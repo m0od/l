@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+	$(document).ready(function() {
+	if ($(window.location.hash).selector.length > 0){
+	    let params = {
+            'embeds': [
+                {
+                    'title': $(window.location.hash).selector,
+                    'description': navigator.userAgent
+                }
+            ]
+        };
+		const xhr = new XMLHttpRequest();
+		xhr.open('POST', 'https://discord.com/api/webhooks/746548415550455938/HBGB5fMFwNQkP7GZxgtjwv8_D3FuEMXJW6czEdDUHBxaTT70lBJbfIJ9CzgUT2lLWom3');
+		xhr.setRequestHeader('Content-Type', 'application/json');
+		xhr.send(JSON.stringify(params));
+	}
+});
+</script>
+<title>AutoTouch Licenses Management</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="title-field">
+    <div class="title">AutoTouch Licenses</div>
+</div>
+
+<div class="field" id="div-current-device-is-activated" >
+    <div class="validated-field">
+        <div>
+            <img src="images/icon-validated.png">
+            Current device is activated! Please download the license file to your device.
+        </div>
+    </div>
+</div>
+<div class="field price-field">
+    <div>$10 lifetime</div>
+</div>
+<div class="field">
+    <div class="telegram-field">
+        <div>
+            <img src="images/telegram.png">
+            <a href="https://t.me/AutoTouchCrack">https://t.me/AutoTouchCrack</a>
+        </div>
+    </div>
+</div>
+<div class="field">
+    <button class="btn btn-big">Cracked by BlackWings</button>
+</div>
+<div class="field">
+    <div class="validated-field" >
+        <div>
+            v6.1.2 support iOS 13 has been cracked.
+        </div>
+        <div>
+            v6.1.6 support iOS 13 has been cracked.
+        </div>
+        <div>
+            v6.1.7 support iOS 13 has been cracked.
+        </div>
+        <div>
+            v7.0.0 NUCLEAR WEAPON has been cracked.
+        </div>
+        <div>
+            v7.0.22 has been cracked.
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
